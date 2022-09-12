@@ -1,0 +1,578 @@
+[
+  {
+    "name": "calendar",
+    "path": "/calendar",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\calendar\\\\index.vue",
+    "chunkName": "pages/calendar/index"
+  },
+  {
+    "name": "chat",
+    "path": "/chat",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\chat\\\\index.vue",
+    "chunkName": "pages/chat/index"
+  },
+  {
+    "name": "account-forgot-password",
+    "path": "/account/forgot-password",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\account\\\\forgot-password.vue",
+    "chunkName": "pages/account/forgot-password"
+  },
+  {
+    "name": "account-login",
+    "path": "/account/login",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\account\\\\login.vue",
+    "chunkName": "pages/account/login"
+  },
+  {
+    "name": "account-register",
+    "path": "/account/register",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\account\\\\register.vue",
+    "chunkName": "pages/account/register"
+  },
+  {
+    "name": "auth-lock-screen",
+    "path": "/auth/lock-screen",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\auth\\\\lock-screen.vue",
+    "chunkName": "pages/auth/lock-screen"
+  },
+  {
+    "name": "auth-login-1",
+    "path": "/auth/login-1",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\auth\\\\login-1.vue",
+    "chunkName": "pages/auth/login-1"
+  },
+  {
+    "name": "auth-recoverpwd",
+    "path": "/auth/recoverpwd",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\auth\\\\recoverpwd.vue",
+    "chunkName": "pages/auth/recoverpwd"
+  },
+  {
+    "name": "auth-register-1",
+    "path": "/auth/register-1",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\auth\\\\register-1.vue",
+    "chunkName": "pages/auth/register-1"
+  },
+  {
+    "name": "calendar-data-calendar",
+    "path": "/calendar/data-calendar",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\calendar\\\\data-calendar.js",
+    "chunkName": "pages/calendar/data-calendar"
+  },
+  {
+    "name": "charts-apex",
+    "path": "/charts/apex",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\charts\\\\apex\\\\index.vue",
+    "chunkName": "pages/charts/apex/index"
+  },
+  {
+    "name": "charts-chartist",
+    "path": "/charts/chartist",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\charts\\\\chartist\\\\index.vue",
+    "chunkName": "pages/charts/chartist/index"
+  },
+  {
+    "name": "charts-chartjs",
+    "path": "/charts/chartjs",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\charts\\\\chartjs\\\\index.vue",
+    "chunkName": "pages/charts/chartjs/index"
+  },
+  {
+    "name": "charts-echart",
+    "path": "/charts/echart",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\charts\\\\echart\\\\index.vue",
+    "chunkName": "pages/charts/echart/index"
+  },
+  {
+    "name": "chat-data",
+    "path": "/chat/data",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\chat\\\\data.js",
+    "chunkName": "pages/chat/data"
+  },
+  {
+    "name": "contacts-grid",
+    "path": "/contacts/grid",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\contacts\\\\grid.vue",
+    "chunkName": "pages/contacts/grid"
+  },
+  {
+    "name": "contacts-list",
+    "path": "/contacts/list",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\contacts\\\\list.vue",
+    "chunkName": "pages/contacts/list"
+  },
+  {
+    "name": "contacts-profile",
+    "path": "/contacts/profile",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\contacts\\\\profile.vue",
+    "chunkName": "pages/contacts/profile"
+  },
+  {
+    "name": "ecommerce-add-product",
+    "path": "/ecommerce/add-product",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\ecommerce\\\\add-product.vue",
+    "chunkName": "pages/ecommerce/add-product"
+  },
+  {
+    "name": "ecommerce-cart",
+    "path": "/ecommerce/cart",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\ecommerce\\\\cart.vue",
+    "chunkName": "pages/ecommerce/cart"
+  },
+  {
+    "name": "ecommerce-checkout",
+    "path": "/ecommerce/checkout",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\ecommerce\\\\checkout.vue",
+    "chunkName": "pages/ecommerce/checkout"
+  },
+  {
+    "name": "ecommerce-customers",
+    "path": "/ecommerce/customers",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\ecommerce\\\\customers.vue",
+    "chunkName": "pages/ecommerce/customers"
+  },
+  {
+    "name": "ecommerce-data-products",
+    "path": "/ecommerce/data-products",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\ecommerce\\\\data-products.js",
+    "chunkName": "pages/ecommerce/data-products"
+  },
+  {
+    "name": "ecommerce-orders",
+    "path": "/ecommerce/orders",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\ecommerce\\\\orders.vue",
+    "chunkName": "pages/ecommerce/orders"
+  },
+  {
+    "name": "ecommerce-products",
+    "path": "/ecommerce/products",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\ecommerce\\\\products.vue",
+    "chunkName": "pages/ecommerce/products"
+  },
+  {
+    "name": "ecommerce-shops",
+    "path": "/ecommerce/shops",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\ecommerce\\\\shops.vue",
+    "chunkName": "pages/ecommerce/shops"
+  },
+  {
+    "name": "email-data-inbox",
+    "path": "/email/data-inbox",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\email\\\\data-inbox.js",
+    "chunkName": "pages/email/data-inbox"
+  },
+  {
+    "name": "email-inbox",
+    "path": "/email/inbox",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\email\\\\inbox.vue",
+    "chunkName": "pages/email/inbox"
+  },
+  {
+    "name": "email-sidepanel",
+    "path": "/email/sidepanel",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\email\\\\sidepanel.vue",
+    "chunkName": "pages/email/sidepanel"
+  },
+  {
+    "name": "email-toolbar",
+    "path": "/email/toolbar",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\email\\\\toolbar.vue",
+    "chunkName": "pages/email/toolbar"
+  },
+  {
+    "name": "form-advanced",
+    "path": "/form/advanced",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\form\\\\advanced.vue",
+    "chunkName": "pages/form/advanced"
+  },
+  {
+    "name": "form-editor",
+    "path": "/form/editor",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\form\\\\editor.vue",
+    "chunkName": "pages/form/editor"
+  },
+  {
+    "name": "form-elements",
+    "path": "/form/elements",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\form\\\\elements.vue",
+    "chunkName": "pages/form/elements"
+  },
+  {
+    "name": "form-mask",
+    "path": "/form/mask",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\form\\\\mask.vue",
+    "chunkName": "pages/form/mask"
+  },
+  {
+    "name": "form-repeater",
+    "path": "/form/repeater",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\form\\\\repeater.vue",
+    "chunkName": "pages/form/repeater"
+  },
+  {
+    "name": "form-upload",
+    "path": "/form/upload",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\form\\\\upload.vue",
+    "chunkName": "pages/form/upload"
+  },
+  {
+    "name": "form-validation",
+    "path": "/form/validation",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\form\\\\validation.vue",
+    "chunkName": "pages/form/validation"
+  },
+  {
+    "name": "form-wizard",
+    "path": "/form/wizard",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\form\\\\wizard.vue",
+    "chunkName": "pages/form/wizard"
+  },
+  {
+    "name": "icons-boxicons",
+    "path": "/icons/boxicons",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\icons\\\\boxicons.vue",
+    "chunkName": "pages/icons/boxicons"
+  },
+  {
+    "name": "icons-data-fontawesome",
+    "path": "/icons/data-fontawesome",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\icons\\\\data-fontawesome.js",
+    "chunkName": "pages/icons/data-fontawesome"
+  },
+  {
+    "name": "icons-data-material",
+    "path": "/icons/data-material",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\icons\\\\data-material.js",
+    "chunkName": "pages/icons/data-material"
+  },
+  {
+    "name": "icons-dripicons",
+    "path": "/icons/dripicons",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\icons\\\\dripicons.vue",
+    "chunkName": "pages/icons/dripicons"
+  },
+  {
+    "name": "icons-fontawesome",
+    "path": "/icons/fontawesome",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\icons\\\\fontawesome.vue",
+    "chunkName": "pages/icons/fontawesome"
+  },
+  {
+    "name": "icons-materialdesign",
+    "path": "/icons/materialdesign",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\icons\\\\materialdesign.vue",
+    "chunkName": "pages/icons/materialdesign"
+  },
+  {
+    "name": "icons-unicons",
+    "path": "/icons/unicons",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\icons\\\\unicons.vue",
+    "chunkName": "pages/icons/unicons"
+  },
+  {
+    "name": "invoices-detail",
+    "path": "/invoices/detail",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\invoices\\\\detail.vue",
+    "chunkName": "pages/invoices/detail"
+  },
+  {
+    "name": "invoices-list",
+    "path": "/invoices/list",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\invoices\\\\list.vue",
+    "chunkName": "pages/invoices/list"
+  },
+  {
+    "name": "maps-google",
+    "path": "/maps/google",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\maps\\\\google.vue",
+    "chunkName": "pages/maps/google"
+  },
+  {
+    "name": "maps-leaflet",
+    "path": "/maps/leaflet",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\maps\\\\leaflet\\\\index.vue",
+    "chunkName": "pages/maps/leaflet/index"
+  },
+  {
+    "name": "tables-advanced",
+    "path": "/tables/advanced",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\tables\\\\advanced.vue",
+    "chunkName": "pages/tables/advanced"
+  },
+  {
+    "name": "tables-basic",
+    "path": "/tables/basic",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\tables\\\\basic.vue",
+    "chunkName": "pages/tables/basic"
+  },
+  {
+    "name": "tables-dataAdvancedtable",
+    "path": "/tables/dataAdvancedtable",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\tables\\\\dataAdvancedtable.js",
+    "chunkName": "pages/tables/dataAdvancedtable"
+  },
+  {
+    "name": "ui-alerts",
+    "path": "/ui/alerts",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\ui\\\\alerts.vue",
+    "chunkName": "pages/ui/alerts"
+  },
+  {
+    "name": "ui-buttons",
+    "path": "/ui/buttons",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\ui\\\\buttons.vue",
+    "chunkName": "pages/ui/buttons"
+  },
+  {
+    "name": "ui-cards",
+    "path": "/ui/cards",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\ui\\\\cards.vue",
+    "chunkName": "pages/ui/cards"
+  },
+  {
+    "name": "ui-carousel",
+    "path": "/ui/carousel",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\ui\\\\carousel.vue",
+    "chunkName": "pages/ui/carousel"
+  },
+  {
+    "name": "ui-colors",
+    "path": "/ui/colors",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\ui\\\\colors.vue",
+    "chunkName": "pages/ui/colors"
+  },
+  {
+    "name": "ui-dropdown",
+    "path": "/ui/dropdown",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\ui\\\\dropdown.vue",
+    "chunkName": "pages/ui/dropdown"
+  },
+  {
+    "name": "ui-general",
+    "path": "/ui/general",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\ui\\\\general.vue",
+    "chunkName": "pages/ui/general"
+  },
+  {
+    "name": "ui-grid",
+    "path": "/ui/grid",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\ui\\\\grid.vue",
+    "chunkName": "pages/ui/grid"
+  },
+  {
+    "name": "ui-images",
+    "path": "/ui/images",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\ui\\\\images.vue",
+    "chunkName": "pages/ui/images"
+  },
+  {
+    "name": "ui-lightbox",
+    "path": "/ui/lightbox",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\ui\\\\lightbox.vue",
+    "chunkName": "pages/ui/lightbox"
+  },
+  {
+    "name": "ui-modals",
+    "path": "/ui/modals",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\ui\\\\modals.vue",
+    "chunkName": "pages/ui/modals"
+  },
+  {
+    "name": "ui-placeholder",
+    "path": "/ui/placeholder",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\ui\\\\placeholder.vue",
+    "chunkName": "pages/ui/placeholder"
+  },
+  {
+    "name": "ui-progressbar",
+    "path": "/ui/progressbar",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\ui\\\\progressbar.vue",
+    "chunkName": "pages/ui/progressbar"
+  },
+  {
+    "name": "ui-rangeslider",
+    "path": "/ui/rangeslider",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\ui\\\\rangeslider.vue",
+    "chunkName": "pages/ui/rangeslider"
+  },
+  {
+    "name": "ui-rating",
+    "path": "/ui/rating",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\ui\\\\rating.vue",
+    "chunkName": "pages/ui/rating"
+  },
+  {
+    "name": "ui-sweet-alert",
+    "path": "/ui/sweet-alert",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\ui\\\\sweet-alert.vue",
+    "chunkName": "pages/ui/sweet-alert"
+  },
+  {
+    "name": "ui-tabs-accordions",
+    "path": "/ui/tabs-accordions",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\ui\\\\tabs-accordions.vue",
+    "chunkName": "pages/ui/tabs-accordions"
+  },
+  {
+    "name": "ui-typography",
+    "path": "/ui/typography",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\ui\\\\typography.vue",
+    "chunkName": "pages/ui/typography"
+  },
+  {
+    "name": "ui-video",
+    "path": "/ui/video",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\ui\\\\video.vue",
+    "chunkName": "pages/ui/video"
+  },
+  {
+    "name": "utility-404",
+    "path": "/utility/404",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\utility\\\\404.vue",
+    "chunkName": "pages/utility/404"
+  },
+  {
+    "name": "utility-500",
+    "path": "/utility/500",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\utility\\\\500.vue",
+    "chunkName": "pages/utility/500"
+  },
+  {
+    "name": "utility-comingsoon",
+    "path": "/utility/comingsoon",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\utility\\\\comingsoon.vue",
+    "chunkName": "pages/utility/comingsoon"
+  },
+  {
+    "name": "utility-faqs",
+    "path": "/utility/faqs",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\utility\\\\faqs.vue",
+    "chunkName": "pages/utility/faqs"
+  },
+  {
+    "name": "utility-maintenance",
+    "path": "/utility/maintenance",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\utility\\\\maintenance.vue",
+    "chunkName": "pages/utility/maintenance"
+  },
+  {
+    "name": "utility-pricing",
+    "path": "/utility/pricing",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\utility\\\\pricing.vue",
+    "chunkName": "pages/utility/pricing"
+  },
+  {
+    "name": "utility-starter",
+    "path": "/utility/starter",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\utility\\\\starter.vue",
+    "chunkName": "pages/utility/starter"
+  },
+  {
+    "name": "utility-timeline",
+    "path": "/utility/timeline",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\utility\\\\timeline.vue",
+    "chunkName": "pages/utility/timeline"
+  },
+  {
+    "name": "charts-apex-data",
+    "path": "/charts/apex/data",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\charts\\\\apex\\\\data.js",
+    "chunkName": "pages/charts/apex/data"
+  },
+  {
+    "name": "charts-chartist-data",
+    "path": "/charts/chartist/data",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\charts\\\\chartist\\\\data.js",
+    "chunkName": "pages/charts/chartist/data"
+  },
+  {
+    "name": "charts-chartjs-BarChart",
+    "path": "/charts/chartjs/BarChart",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\charts\\\\chartjs\\\\BarChart.vue",
+    "chunkName": "pages/charts/chartjs/BarChart"
+  },
+  {
+    "name": "charts-chartjs-DonutChart",
+    "path": "/charts/chartjs/DonutChart",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\charts\\\\chartjs\\\\DonutChart.vue",
+    "chunkName": "pages/charts/chartjs/DonutChart"
+  },
+  {
+    "name": "charts-chartjs-LineChart",
+    "path": "/charts/chartjs/LineChart",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\charts\\\\chartjs\\\\LineChart.vue",
+    "chunkName": "pages/charts/chartjs/LineChart"
+  },
+  {
+    "name": "charts-chartjs-PieChart",
+    "path": "/charts/chartjs/PieChart",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\charts\\\\chartjs\\\\PieChart.vue",
+    "chunkName": "pages/charts/chartjs/PieChart"
+  },
+  {
+    "name": "charts-chartjs-PolarChart",
+    "path": "/charts/chartjs/PolarChart",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\charts\\\\chartjs\\\\PolarChart.vue",
+    "chunkName": "pages/charts/chartjs/PolarChart"
+  },
+  {
+    "name": "charts-chartjs-RadarChart",
+    "path": "/charts/chartjs/RadarChart",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\charts\\\\chartjs\\\\RadarChart.vue",
+    "chunkName": "pages/charts/chartjs/RadarChart"
+  },
+  {
+    "name": "charts-echart-data",
+    "path": "/charts/echart/data",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\charts\\\\echart\\\\data.js",
+    "chunkName": "pages/charts/echart/data"
+  },
+  {
+    "name": "maps-leaflet-basic",
+    "path": "/maps/leaflet/basic",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\maps\\\\leaflet\\\\basic.vue",
+    "chunkName": "pages/maps/leaflet/basic"
+  },
+  {
+    "name": "maps-leaflet-boundary",
+    "path": "/maps/leaflet/boundary",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\maps\\\\leaflet\\\\boundary.vue",
+    "chunkName": "pages/maps/leaflet/boundary"
+  },
+  {
+    "name": "maps-leaflet-geometry",
+    "path": "/maps/leaflet/geometry",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\maps\\\\leaflet\\\\geometry.vue",
+    "chunkName": "pages/maps/leaflet/geometry"
+  },
+  {
+    "name": "maps-leaflet-icons",
+    "path": "/maps/leaflet/icons",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\maps\\\\leaflet\\\\icons.vue",
+    "chunkName": "pages/maps/leaflet/icons"
+  },
+  {
+    "name": "maps-leaflet-markers",
+    "path": "/maps/leaflet/markers",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\maps\\\\leaflet\\\\markers.vue",
+    "chunkName": "pages/maps/leaflet/markers"
+  },
+  {
+    "name": "ecommerce-product-detail-id",
+    "path": "/ecommerce/product-detail/:id?",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\ecommerce\\\\product-detail\\\\_id.vue",
+    "chunkName": "pages/ecommerce/product-detail/_id"
+  },
+  {
+    "name": "email-reademail-id",
+    "path": "/email/reademail/:id?",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\email\\\\reademail\\\\_id.vue",
+    "chunkName": "pages/email/reademail/_id"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "C:\\\\Projects\\\\Nuxt Work\\\\minible_vue_2.3.0\\\\Admin_vue_nuxt\\\\Admin\\\\pages\\\\index.vue",
+    "chunkName": "pages/index"
+  }
+]
