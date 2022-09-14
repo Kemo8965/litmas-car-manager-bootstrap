@@ -10,13 +10,13 @@ export default {
   },
   data() {
     return {
-      title: "Orders",
+      title: "Bookings",
       items: [
         {
           text: "Ecommerce",
         },
         {
-          text: "Orders",
+          text: "Bookings",
           active: true,
         },
       ],
@@ -121,7 +121,7 @@ export default {
         },
         {
           key: "id",
-          label: "Order Id",
+          label: "Registration No.",
         },
         {
           key: "date",

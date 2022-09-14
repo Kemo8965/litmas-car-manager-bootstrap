@@ -115,7 +115,7 @@ export default {
                     radialBar: {
                         hollow: {
                             margin: 0,
-                            size: "60%"
+                            size: "29%"
                         },
                         track: {
                             margin: 0
@@ -143,7 +143,7 @@ export default {
                     radialBar: {
                         hollow: {
                             margin: 0,
-                            size: "60%"
+                            size: "16%"
                         },
                         track: {
                             margin: 0
@@ -162,19 +162,20 @@ export default {
 <template>
 <div class="row">
     <div class="col-md-6 col-xl-3">
-        <div class="card">
+        <b-card
+        style="max-width: 20rem;">
             <div class="card-body">
-                <div class="float-end mt-2">
+                <!-- <div class="float-end mt-2">
                     <apexchart class="apex-charts" dir="ltr" width="70" height="40" :options="chartOptions" :series="series"></apexchart>
-                </div>
+                </div> -->
                 <div>
                     <h4 class="mb-1 mt-1">
-                       {{currency.zmw}}
+                       
                         <span data-plugin="counterup">
-                            <countTo :startVal="1000.00" :endVal="350702.89" :duration="2000"></countTo>
+                            <countTo :startVal="0" :endVal="125" :duration="8000"></countTo>
                         </span>
                     </h4>
-                    <p class="text-muted mb-0">Total Revenue</p>
+                    <p class="text-muted mb-0">Total Cars</p>
                 </div>
                 <p class="text-muted mt-3 mb-0">
                     <span class="text-success me-1">
@@ -183,21 +184,23 @@ export default {
                     since last week
                 </p>
             </div>
-        </div>
+        </b-card>
     </div>
     <div class="col-md-6 col-xl-3">
-        <div class="card">
+        <b-card
+        style="max-width: 20rem;">
             <div class="card-body">
-                <div class="float-end mt-2">
-                    <apexchart class="apex-charts" type="radialBar" dir="ltr" width="45" height="45" :options="orderRadial" :series="orderseries"></apexchart>
-                </div>
+                 <div class="float-end mt-2 mx-4">
+                   <i class="bx bx-gas-pump"></i>
+                </div> 
+
                 <div>
                     <h4 class="mb-1 mt-1">
                         <span data-plugin="counterup">
-                            <countTo :startVal="100" :endVal="5643" :duration="2000"></countTo>
+                            <countTo :startVal="0" :endVal="9" :duration="7000"></countTo>
                         </span>
                     </h4>
-                    <p class="text-muted mb-0">Orders</p>
+                    <p class="text-muted mb-0">Engaged</p>
                 </div>
                 <p class="text-muted mt-3 mb-0">
                     <span class="text-danger me-1">
@@ -206,23 +209,24 @@ export default {
                     since last week
                 </p>
             </div>
-        </div>
+        </b-card>
     </div>
     <!-- end col-->
 
     <div class="col-md-6 col-xl-3">
-        <div class="card">
+        <b-card
+        style="max-width: 20rem;">
             <div class="card-body">
-                <div class="float-end mt-2">
-                    <apexchart class="apex-charts" type="radialBar" dir="ltr" width="45" height="45" :options="customerRadial" :series="customerseries"></apexchart>
-                </div>
+                <div class="float-end mt-2 mx-4">
+                    <i class="bx bx-line-chart"></i>
+                </div> 
                 <div>
                     <h4 class="mb-1 mt-1">
                         <span data-plugin="counterup">
-                            <countTo :startVal="1000" :endVal="45254" :duration="2000"></countTo>
+                            <countTo :startVal="0" :endVal="4" :duration="6000"></countTo>
                         </span>
                     </h4>
-                    <p class="text-muted mb-0">Customers</p>
+                    <p class="text-muted mb-0">In Garage</p>
                 </div>
                 <p class="text-muted mt-3 mb-0">
                     <span class="text-danger me-1">
@@ -231,9 +235,35 @@ export default {
                     since last week
                 </p>
             </div>
-        </div>
+        </b-card>
     </div>
+
     <div class="col-md-6 col-xl-3">
+        <b-card
+        style="max-width: 20rem;">
+            <div class="card-body">
+                <div class="float-end mt-2">
+
+                    <i class="bx bx-shield-quarter"></i>
+                </div>
+                <div>
+                    <h4 class="mb-1 mt-1">
+                        <span data-plugin="counterup">
+                            <countTo :startVal="0" :endVal="4" :duration="6000"></countTo>
+                        </span>
+                    </h4>
+                    <p class="text-muted mb-0">Available</p>
+                </div>
+                <p class="text-muted mt-3 mb-0">
+                    <span class="text-danger me-1">
+                        <i class="mdi mdi-arrow-down-bold me-1"></i>6.24%
+                    </span>
+                    since last week
+                </p>
+            </div>
+        </b-card>
+    </div>
+    <!-- <div class="col-md-6 col-xl-3">
         <div class="card">
             <div class="card-body">
                 <div class="float-end mt-2">
@@ -244,7 +274,7 @@ export default {
                         +
                         <span data-plugin="counterup">12.58</span>%
                     </h4>
-                    <p class="text-muted mb-0">Growth</p>
+                    <p class="text-muted mb-0">Available</p>
                 </div>
                 <p class="text-muted mt-3 mb-0">
                     <span class="text-success me-1">
@@ -254,7 +284,7 @@ export default {
                 </p>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- end col-->
 </div>
 <!-- end row-->

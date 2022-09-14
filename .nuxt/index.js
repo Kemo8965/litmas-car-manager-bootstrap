@@ -13,10 +13,10 @@ import { createStore } from './store.js'
 
 /* Plugins */
 
-import nuxt_plugin_plugin_653d76ce from 'nuxt_plugin_plugin_653d76ce' // Source: .\\components\\plugin.js (mode: 'all')
-import nuxt_plugin_bootstrapvue_cca6e5c0 from 'nuxt_plugin_bootstrapvue_cca6e5c0' // Source: .\\bootstrap-vue.js (mode: 'all')
-import nuxt_plugin_pluginclient_df6a7ef8 from 'nuxt_plugin_pluginclient_df6a7ef8' // Source: .\\content\\plugin.client.js (mode: 'client')
-import nuxt_plugin_pluginserver_13f79be8 from 'nuxt_plugin_pluginserver_13f79be8' // Source: .\\content\\plugin.server.js (mode: 'server')
+import nuxt_plugin_plugin_5ade9480 from 'nuxt_plugin_plugin_5ade9480' // Source: .\\components\\plugin.js (mode: 'all')
+import nuxt_plugin_bootstrapvue_ea57585c from 'nuxt_plugin_bootstrapvue_ea57585c' // Source: .\\bootstrap-vue.js (mode: 'all')
+import nuxt_plugin_pluginclient_6fe1b536 from 'nuxt_plugin_pluginclient_6fe1b536' // Source: .\\content\\plugin.client.js (mode: 'client')
+import nuxt_plugin_pluginserver_54c9b284 from 'nuxt_plugin_pluginserver_54c9b284' // Source: .\\content\\plugin.server.js (mode: 'server')
 import nuxt_plugin_fakeauth_71f68924 from 'nuxt_plugin_fakeauth_71f68924' // Source: ..\\plugins\\fakeauth.js (mode: 'all')
 import nuxt_plugin_fireauth_22211b23 from 'nuxt_plugin_fireauth_22211b23' // Source: ..\\plugins\\fireauth.js (mode: 'all')
 import nuxt_plugin_i18n_1fba523a from 'nuxt_plugin_i18n_1fba523a' // Source: ..\\plugins\\i18n.js (mode: 'all')
@@ -57,7 +57,11 @@ Vue.component(Nuxt.name, Nuxt)
 
 Object.defineProperty(Vue.prototype, '$nuxt', {
   get() {
-    return this.$root.$options.$nuxt
+    const globalNuxt = this.$root.$options.$nuxt
+    if (process.client && !globalNuxt && typeof window !== 'undefined') {
+      return window.$nuxt
+    }
+    return globalNuxt
   },
   configurable: true
 })
@@ -67,14 +71,18 @@ Vue.use(Meta, {"keyName":"head","attribute":"data-n-head","ssrAttribute":"data-n
 const defaultTransition = {"name":"page","mode":"out-in","appear":true,"appearClass":"appear","appearActiveClass":"appear-active","appearToClass":"appear-to"}
 
 const originalRegisterModule = Vuex.Store.prototype.registerModule
-const baseStoreOptions = { preserveState: process.client }
 
 function registerModule (path, rawModule, options = {}) {
-  return originalRegisterModule.call(this, path, rawModule, { ...baseStoreOptions, ...options })
+  const preserveState = process.client && (
+    Array.isArray(path)
+      ? !!path.reduce((namespacedState, path) => namespacedState && namespacedState[path], this.state)
+      : path in this.state
+  )
+  return originalRegisterModule.call(this, path, rawModule, { preserveState, ...options })
 }
 
 async function createApp(ssrContext, config = {}) {
-  const router = await createRouter(ssrContext)
+  const router = await createRouter(ssrContext, config)
 
   const store = createStore(ssrContext)
   // Add this.$router into store actions/mutations
@@ -85,7 +93,7 @@ async function createApp(ssrContext, config = {}) {
   // here we inject the router and store to all child components,
   // making them available everywhere as `this.$router` and `this.$store`.
   const app = {
-    head: {"meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"Responsive Bootstrap 5 Admin Dashboard"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"}],"style":[],"script":[]},
+    head: {"meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"Litmas Car Manager"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"}],"style":[],"script":[]},
 
     store,
     router,
@@ -214,20 +222,20 @@ async function createApp(ssrContext, config = {}) {
   }
   // Plugin execution
 
-  if (typeof nuxt_plugin_plugin_653d76ce === 'function') {
-    await nuxt_plugin_plugin_653d76ce(app.context, inject)
+  if (typeof nuxt_plugin_plugin_5ade9480 === 'function') {
+    await nuxt_plugin_plugin_5ade9480(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_bootstrapvue_cca6e5c0 === 'function') {
-    await nuxt_plugin_bootstrapvue_cca6e5c0(app.context, inject)
+  if (typeof nuxt_plugin_bootstrapvue_ea57585c === 'function') {
+    await nuxt_plugin_bootstrapvue_ea57585c(app.context, inject)
   }
 
-  if (process.client && typeof nuxt_plugin_pluginclient_df6a7ef8 === 'function') {
-    await nuxt_plugin_pluginclient_df6a7ef8(app.context, inject)
+  if (process.client && typeof nuxt_plugin_pluginclient_6fe1b536 === 'function') {
+    await nuxt_plugin_pluginclient_6fe1b536(app.context, inject)
   }
 
-  if (process.server && typeof nuxt_plugin_pluginserver_13f79be8 === 'function') {
-    await nuxt_plugin_pluginserver_13f79be8(app.context, inject)
+  if (process.server && typeof nuxt_plugin_pluginserver_54c9b284 === 'function') {
+    await nuxt_plugin_pluginserver_54c9b284(app.context, inject)
   }
 
   if (typeof nuxt_plugin_fakeauth_71f68924 === 'function') {
@@ -285,26 +293,33 @@ async function createApp(ssrContext, config = {}) {
     }
   }
 
-  // If server-side, wait for async component to be resolved first
-  if (process.server && ssrContext && ssrContext.url) {
-    await new Promise((resolve, reject) => {
-      router.push(ssrContext.url, resolve, (err) => {
-        // https://github.com/vuejs/vue-router/blob/v3.4.3/src/util/errors.js
-        if (!err._isRouter) return reject(err)
-        if (err.type !== 2 /* NavigationFailureType.redirected */) return resolve()
+  // Wait for async component to be resolved first
+  await new Promise((resolve, reject) => {
+    // Ignore 404s rather than blindly replacing URL in browser
+    if (process.client) {
+      const { route } = router.resolve(app.context.route.fullPath)
+      if (!route.matched.length) {
+        return resolve()
+      }
+    }
+    router.replace(app.context.route.fullPath, resolve, (err) => {
+      // https://github.com/vuejs/vue-router/blob/v3.4.3/src/util/errors.js
+      if (!err._isRouter) return reject(err)
+      if (err.type !== 2 /* NavigationFailureType.redirected */) return resolve()
 
-        // navigated to a different route in router guard
-        const unregister = router.afterEach(async (to, from) => {
+      // navigated to a different route in router guard
+      const unregister = router.afterEach(async (to, from) => {
+        if (process.server && ssrContext && ssrContext.url) {
           ssrContext.url = to.fullPath
-          app.context.route = await getRouteData(to)
-          app.context.params = to.params || {}
-          app.context.query = to.query || {}
-          unregister()
-          resolve()
-        })
+        }
+        app.context.route = await getRouteData(to)
+        app.context.params = to.params || {}
+        app.context.query = to.query || {}
+        unregister()
+        resolve()
       })
     })
-  }
+  })
 
   return {
     store,

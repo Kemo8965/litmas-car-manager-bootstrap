@@ -16,7 +16,7 @@ export default {
                 zar:'ZAR'
             },
             series: [{
-                name: 'Desktops',
+                name: 'Car Hire',
                 type: 'column',
                 data: [23, 11, 22, 27, 13, 22, 37, 21, 44, 22, 30]
             }, {
@@ -66,7 +66,7 @@ export default {
                 },
                 yaxis: {
                     title: {
-                        text: 'Points',
+                        text: 'Bookings',
                     },
                 },
                 tooltip: {
@@ -117,7 +117,7 @@ export default {
                         <h3 class="text-primary">
                             {{currency.zmw}}
                             <span data-plugin="counterup">
-                                <countTo :startVal="1" :endVal="2371" :duration="2000"></countTo>
+                                <countTo :startVal="1" :endVal="2371.09" :duration="2000"></countTo>
                             </span>
                             <span class="text-muted d-inline-block font-size-15 ml-3">Income</span>
                         </h3>
