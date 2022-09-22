@@ -2,6 +2,8 @@
     /**
      * Orders component
      */
+
+     import { mapActions, mapGetters } from 'vuex'
     export default {
       head() {
         return {
@@ -10,6 +12,9 @@
       },
       data() {
         return {
+
+         
+          modalShow: false,
           title: "Cars",
           items: [
             {
@@ -20,79 +25,96 @@
               active: true,
             },
           ],
-          orderData: [
-            {
-              id: "BAB5009",
-              make: "Toyota",
-              model: "Land Cruiser",
-              engine_no: "H89007200",
-              status: "Paid",
-            },
-            {
-              id: "BAB5009",
-              make: "Nissan",
-              model: "X-Trail",
-              engine_no: "H89007200",
-              status: "Paid",
-            },
-            
-            {
-              id: "BAB5009",
-              make: "Toyota",
-              model: "Mark X",
-              engine_no: "H89007200",
-              status: "In garage",
-            },
-            {
-              id: "BAB5009",
-              make: "Toyota",
-              model: "Mark X",
-              engine_no: "H89007200",
-              status: "In garage",
-            },
-            {
-              id: "BAJ909",
-              make: "BMW",
-              model: "X1",
-              engine_no: "H89007200",
-              status: "Unavailable",
-            },
-            {
-              id: "BAA",
-              make: "Merecedes Benz",
-              model: "C 200",
-              engine_no: "H89007200",
-              status: "Paid",
-            },
-            {
-              id: "BAA123",
-              make: "Toyota",
-              model: "Noah",
-              engine_no: "H89007200",
-              status: "Paid",
-            },
-            {
-              id: "BLB59",
-              make: "Toyota",
-              model: "Vitz",
-              engine_no: "H89007200",
-              status: "Paid",
-            },
-            {
-              id: "BAB5009",
-              make: "Toyota",
-              model: "Mark X",
-              engine_no: "H89007200",
-              status: "Unavailable",
-            },
-            {
-              id: "AAB509",
-              make: "Nissan",
-              model: "Murano",
-              engine_no: "H89007200",
-              status: "Paid",
-            },
+
+          cars:[
+           
+           
           ],
+          
+          // orderData: [
+          //   {
+          //     id: "BAB5009",
+          //     make: "Toyota",
+          //     model: "Land Cruiser",
+          //     engine_no: "H89007200",
+          //     status: "Paid",
+          //   },
+          //   {
+          //     id: "ABX3059",
+          //     make: "Toyota",
+          //     model: "Hilux",
+          //     engine_no: "L89007200",
+          //     status: "Paid",
+          //   },
+          //   {
+          //     id: "BAB5009",
+          //     make: "Nissan",
+          //     model: "X-Trail",
+          //     engine_no: "H89007200",
+          //     status: "Paid",
+          //   },
+            
+          //   {
+          //     id: "BAB5009",
+          //     make: "Toyota",
+          //     model: "Mark X",
+          //     engine_no: "H89007200",
+          //     status: "In garage",
+          //   },
+          //   {
+          //     id: "BAB5009",
+          //     make: "Toyota",
+          //     model: "Mark X",
+          //     engine_no: "H89007200",
+          //     status: "In garage",
+          //   },
+          //   {
+          //     id: "BAJ909",
+          //     make: "BMW",
+          //     model: "X1",
+          //     engine_no: "H89007200",
+          //     status: "In garage",
+          //   },
+          //   {
+          //     id: "BAA",
+          //     make: "Merecedes Benz",
+          //     model: "C 200",
+          //     engine_no: "H89007200",
+          //     status: "Paid",
+          //   },
+          //   {
+          //     id: "BAA123",
+          //     make: "Toyota",
+          //     model: "Noah",
+          //     engine_no: "H89007200",
+          //     status: "Engaged",
+          //   },
+          //   {
+          //     id: "BLB59",
+          //     make: "Toyota",
+          //     model: "Vitz",
+          //     engine_no: "H89007200",
+          //     status: "Paid",
+          //   },
+          //   {
+          //     id: "BAB5009",
+          //     make: "Toyota",
+          //     model: "Mark X",
+          //     engine_no: "H89007200",
+          //     status: "Unavailable",
+          //   },
+          //   {
+          //     id: "AAB509",
+          //     make: "Nissan",
+          //     model: "Murano",
+          //     engine_no: "H89007200",
+          //     status: "Engaged",
+          //   },
+          // ],
+
+          //  orderData:[
+             
+          //   ],
           totalRows: 1,
           currentPage: 1,
           perPage: 10,
@@ -102,10 +124,7 @@
           sortBy: "age",
           sortDesc: false,
           fields: [
-            {
-              key: "check",
-              label: "",
-            },
+            
             {
               key: "id",
               label: "Licence No.",
@@ -127,6 +146,13 @@
               label:"Engine No.",
               sortable: true,
             },
+
+            {
+              key: "chasis_no",
+              label:"Chasis No.",
+              sortable: true,
+            },
+
             {
               key: "status",
               label: "Status",
@@ -138,21 +164,44 @@
       },
       middleware: "authentication",
       computed: {
+
+        ...mapGetters('carData', {
+        loading: 'loading',
+        cars: 'allCars',
+      }),
         /**
          * Total no. of records
          */
         rows() {
-          return this.orderData.length;
+          return this.cars.length;
         },
+
+       cars() {
+        return this.isEmpty ? [] : this.cars
+         }, 
       },
       mounted() {
         // Set the initial number of items
-        this.totalRows = this.items.length;
+        this.totalRows = this.cars.length;
       },
       methods: {
         /**
          * Search the table data with search input
          */
+
+
+         ...mapActions('carData', ['addNewCar','getAllCars', 'load']),
+
+         async refresh(){
+    //  this.isLoading = true
+      await this.getAllCars();
+   //   this.isLoading = false
+ 
+    },
+
+         submit(){
+          console.log("Added!")
+         },
         onFiltered(filteredItems) {
           // Trigger pagination to update the number of buttons/pages due to filtering
           this.totalRows = filteredItems.length;
@@ -164,7 +213,7 @@
     
     <template>
       <div>
-        <PageHeader :title="title" :items="items" />
+        <PageHeader :title="title" :items="cars" />
         <div class="row">
           <div class="col-12">
             <div>
@@ -173,19 +222,66 @@
                   <label class="my-1 me-2" for="order-selectinput">Orders</label>
                   <select class="custom-select my-1" id="order-selectinput">
                     <option selected>All</option>
-                    <option value="1">Active</option>
-                    <option value="2">Unpaid</option>
+                    <option value="1">Engaged</option>
+                    <option value="2">In garage</option>
                   </select>
                 </form>
               </div>
               <button
+              v-b-modal.modal-1
                 type="button"
                 class="btn btn-success waves-effect waves-light mb-3"
               >
-                <i class="mdi mdi-plus me-1"></i> Add New Car
+              
+              <i class="mdi mdi-plus me-1">  </i> Add New Car
+             
               </button>
+              <b-modal ok-only ok-variant="danger" ok-title="Close" @click="submit" id="modal-1" title="New Car Details">
+                <b-form v-model="carForm">
+
+                  <b-label>Make</b-label>
+                  <b-input placeholder="make" v-model="make" class="mb-2"></b-input>
+                  
+
+                  <b-label>Model</b-label>
+                  <b-input placeholder="model" v-model="model" class="mb-2"></b-input>
+
+                  <b-label>Year of make</b-label>
+                  <b-input v-model="yearOfMake"  placeholder="year of make" class="mb-2"></b-input>
+
+                 
+                  
+                  <b-label>Date Purchased</b-label>
+                  <b-datepicker
+                  class="mb-2"
+                  
+                      placeholder="Click to select..."
+                      v-model="datePurchased"
+                      >
+                  </b-datepicker>
+
+                  <b-label>Licence Number </b-label>
+                  <b-input class="mb-2" 
+                    type="text" 
+                    v-model="registrationNumber" 
+                    placeholder="eg. BAB4500">
+                  </b-input>
+
+                  <b-label>Engine Number </b-label>
+                  <b-input class="mb-2" v-model="engineNumber" placeholder="Engine No."> </b-input>
+
+                  <b-label>Chasis Number </b-label>
+                  <b-input class="mb-2" v-model="chasisNumber" placeholder="Chasis No."> </b-input>
+                  
+                  <b-label>Color </b-label>
+                  <b-input class="mb-2" v-model="color" placeholder="Color"> </b-input>
+                  
+                  <b-button class="mt-2" variant="success" @click="submit">Add</b-button>
+                </b-form>
+              </b-modal>
 
               <button
+               @click="refresh"
                 type="button"
                 class="btn btn-info waves-effect waves-light mb-3"
               >
@@ -227,11 +323,12 @@
                 <!-- End search -->
               </div>
               <!-- Table -->
-    
+              
+              <pre>{{ cars }}</pre>
               <b-table
                 table-class="table table-centered datatable table-card-list"
                 thead-tr-class="bg-transparent"
-                :items="orderData"
+                :items="cars"
                 :fields="fields"
                 responsive="sm"
                 :per-page="perPage"
@@ -241,40 +338,44 @@
                 :filter="filter"
                 :filter-included-fields="filterOn"
                 @filtered="onFiltered"
+                show-empty
               >
-                <template v-slot:cell(check)="data">
-                  <div class="custom-control custom-checkbox text-center">
-                    <input
-                      type="checkbox"
-                      class="custom-control-input"
-                      :id="`contacusercheck${data.item.id}`"
-                    />
-                    <label
-                      class="custom-control-label"
-                      :for="`contacusercheck${data.item.id}`"
-                    ></label>
-                  </div>
-                </template>
+               
                 <template v-slot:cell(id)="data">
                   <a
                     href="javascript: void(0);"
                     class="text-dark fw-bold"
-                    >{{ data.item.id }}</a
+                    >{{ data.item.registrationNumber }}</a
                   >
                 </template>
     
-                <template v-slot:cell(name)="data">
-                  <a href="#" class="text-body">{{ data.item.name }}</a>
+                <template v-slot:cell(make)="data">
+                 {{ data.item.data.make }}
                 </template>
+
+                <template v-slot:cell(model)="data">
+                 {{ data.item.model }}
+                </template>
+
+                <template v-slot:cell(engine_no)="data">
+                 {{ data.item.engineNumber }}
+                </template>
+
+                <template v-slot:cell(chasis_no)="data">
+                 {{ data.item.chasisNumber }}
+                </template>
+
+                
+
                 <template v-slot:cell(status)="data">
                   <div
                     class="badge badge-pill bg-soft-success font-size-12"
                     :class="{
-                      'bg-soft-danger': data.item.status === 'Unavailable',
-                      'bg-soft-warning': data.item.status === 'In garage',
+                      'bg-soft-danger': data.item.carStatus === 'Unavailable',
+                      'bg-soft-warning': data.item.carStatus === 'In garage',
                     }"
                   >
-                    {{ data.item.status }}
+                    {{ data.item.carStatus }}
                   </div>
                 </template>
                 <template v-slot:cell(action)>
@@ -300,6 +401,10 @@
                       </a>
                     </li>
                   </ul>
+                </template>
+
+                <template #empty="scope">
+                  <h4>{{ scope.emptyText }}</h4>
                 </template>
               </b-table>
             </div>

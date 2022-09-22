@@ -19,6 +19,8 @@ let store = {};
 
   resolveStoreModules(require('..\\store\\auth.js'), 'auth.js')
   resolveStoreModules(require('..\\store\\authfack.js'), 'authfack.js')
+  resolveStoreModules(require('..\\store\\carData.js'), 'carData.js')
+  resolveStoreModules(require('..\\store\\cars-list.js'), 'cars-list.js')
   resolveStoreModules(require('..\\store\\helpers.js'), 'helpers.js')
   resolveStoreModules(require('..\\store\\layout.js'), 'layout.js')
   resolveStoreModules(require('..\\store\\notification.js'), 'notification.js')
@@ -30,6 +32,8 @@ let store = {};
     module.hot.accept([
       '..\\store\\auth.js',
       '..\\store\\authfack.js',
+      '..\\store\\carData.js',
+      '..\\store\\cars-list.js',
       '..\\store\\helpers.js',
       '..\\store\\layout.js',
       '..\\store\\notification.js',

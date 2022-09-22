@@ -165,9 +165,9 @@ export default {
         <b-card
         style="max-width: 20rem;">
             <div class="card-body">
-                <!-- <div class="float-end mt-2">
-                    <apexchart class="apex-charts" dir="ltr" width="70" height="40" :options="chartOptions" :series="series"></apexchart>
-                </div> -->
+                 <div class="float-end mt-2">
+                     <i class="bx bx-car"></i>
+                </div> 
                 <div>
                     <h4 class="mb-1 mt-1">
                        

@@ -137,12 +137,12 @@ export default {
             </button>
 
             <!-- App Search-->
-            <form class="app-search d-none d-lg-block">
+            <!-- <form class="app-search d-none d-lg-block">
                 <div class="position-relative">
                     <input type="text" class="form-control" :placeholder="$t('navbar.search.text')" />
                     <span class="uil-search"></span>
                 </div>
-            </form>
+            </form> -->
         </div>
 
         <div class="d-flex">
@@ -164,7 +164,7 @@ export default {
                 </form>
             </b-dropdown>
 
-            <b-dropdown variant="white" right toggle-class="header-item">
+            <!-- <b-dropdown variant="white" right toggle-class="header-item">
                 <template v-slot:button-content>
                     <img class :src="flag" alt="Header Language" height="16" />
                     {{text}}
@@ -223,14 +223,14 @@ export default {
                     </div>
                 </div>
             </b-dropdown>
-
-            <div class="dropdown d-none d-lg-inline-block ms-1">
+ -->
+            <!-- <div class="dropdown d-none d-lg-inline-block ms-1">
                 <button type="button" class="btn header-item noti-icon waves-effect" data-toggle="fullscreen" @click="initFullScreen">
                     <i class="uil-minus-path"></i>
                 </button>
-            </div>
+            </div> -->
 
-            <b-dropdown variant="white" class="dropdown d-inline-block" toggle-class="header-item noti-icon" right menu-class="dropdown-menu-lg dropdown-menu-end p-0">
+            <!-- <b-dropdown variant="white" class="dropdown d-inline-block" toggle-class="header-item noti-icon" right menu-class="dropdown-menu-lg dropdown-menu-end p-0">
                 <template v-slot:button-content>
                     <i class="uil-bell"></i>
                     <span class="badge bg-danger rounded-pill">3</span>
@@ -317,13 +317,13 @@ export default {
                         </div>
                     </a>
                 </simplebar>
-                <div class="p-2 border-top d-grid">
+                 <div class="p-2 border-top d-grid">
                     <a class="btn btn-sm btn-link font-size-14 text-center" href="javascript:void(0)">
                         <i class="uil-arrow-circle-right me-1"></i>
                         {{ $t('navbar.dropdown.notification.button')}}
                     </a>
-                </div>
-            </b-dropdown>
+                </div> 
+            </b-dropdown> -->
 
             <b-dropdown class="d-inline-block" toggle-class="header-item" right variant="white" menu-class="dropdown-menu-end">
                 <template v-slot:button-content>

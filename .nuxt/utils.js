@@ -200,7 +200,7 @@ export async function setContext (app, context) {
       payload: context.payload,
       error: context.error,
       base: app.router.options.base,
-      env: {"auth":"fakebackend","apikey":"","authdomain":"","databaseurl":"","projectid":"","storgebucket":"","message":"","appid":"","measurement":""}
+      env: {"NUXT_ENV_NEW_API_URL":"http://localhost:80"}
     }
     // Only set once
 

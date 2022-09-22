@@ -8,7 +8,7 @@ export default {
   layout: "auth",
   head() {
     return {
-      title: `Register | Nuxtjs Responsive Bootstrap 5 Admin Dashboard`,
+      title: `Register | Litmas Car Manager`,
     };
   },
   data() {
@@ -133,7 +133,7 @@ export default {
               <div class="card-body p-4">
                 <div class="text-center mt-2">
                   <h5 class="text-primary">Register Account</h5>
-                  <p class="text-muted">Get your free Minible account now.</p>
+                  <p class="text-muted">Get your free Litmas Car Manager account now.</p>
                 </div>
                 <div class="p-2 mt-4">
                   <div
@@ -288,8 +288,8 @@ export default {
             </div>
             <div class="mt-5 text-center">
               <p>
-                © {{ new Date().getFullYear() }} Minible. Crafted with
-                <i class="mdi mdi-heart text-danger"></i> by Themesbrand
+                © {{ new Date().getFullYear() }} Litmas Car Manager. Crafted with
+                <i class="mdi mdi-heart text-danger"></i> by Piranha Systems
               </p>
             </div>
           </div>

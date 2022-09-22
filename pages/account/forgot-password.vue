@@ -8,7 +8,7 @@ export default {
   layout: "auth",
   head() {
     return {
-      title: `Forgot Password | Nuxtjs Responsive Bootstrap 5 Admin Dashboard`,
+      title: `Forgot Password | Litmas Car Manager`,
     };
   },
   data() {
@@ -93,7 +93,7 @@ export default {
                 <div class="card-body p-4">
                   <div class="text-center mt-2">
                     <h5 class="text-primary">Reset Password</h5>
-                    <p class="text-muted">Reset Password with Minible.</p>
+                    <p class="text-muted">Reset Password with Litmas Car Manager.</p>
                   </div>
                   <div class="p-2 mt-4">
                     <div
@@ -153,8 +153,8 @@ export default {
 
               <div class="mt-5 text-center">
                 <p>
-                  © {{ new Date().getFullYear() }} Minible. Crafted with
-                  <i class="mdi mdi-heart text-danger"></i> by Themesbrand
+                  © {{ new Date().getFullYear() }} Litmas Car Manager. Crafted with
+                  <i class="mdi mdi-heart text-danger"></i> by Piranha Systems
                 </p>
               </div>
             </div>

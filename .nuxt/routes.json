@@ -3,582 +3,679 @@
     "name": "calendar",
     "path": "/calendar",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\calendar\\\\index.vue",
-    "chunkName": "pages/calendar/index"
+    "chunkName": "pages/calendar/index",
+    "_name": "_316f4eab"
   },
   {
     "name": "chat",
     "path": "/chat",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\chat\\\\index.vue",
-    "chunkName": "pages/chat/index"
+    "chunkName": "pages/chat/index",
+    "_name": "_ee9b8c5e"
   },
   {
     "name": "account-forgot-password",
     "path": "/account/forgot-password",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\account\\\\forgot-password.vue",
-    "chunkName": "pages/account/forgot-password"
+    "chunkName": "pages/account/forgot-password",
+    "_name": "_b749d89e"
   },
   {
     "name": "account-login",
     "path": "/account/login",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\account\\\\login.vue",
-    "chunkName": "pages/account/login"
+    "chunkName": "pages/account/login",
+    "_name": "_f128afd6"
   },
   {
     "name": "account-register",
     "path": "/account/register",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\account\\\\register.vue",
-    "chunkName": "pages/account/register"
+    "chunkName": "pages/account/register",
+    "_name": "_712406b2"
   },
   {
     "name": "auth-lock-screen",
     "path": "/auth/lock-screen",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\auth\\\\lock-screen.vue",
-    "chunkName": "pages/auth/lock-screen"
+    "chunkName": "pages/auth/lock-screen",
+    "_name": "_72520e86"
   },
   {
     "name": "auth-login-1",
     "path": "/auth/login-1",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\auth\\\\login-1.vue",
-    "chunkName": "pages/auth/login-1"
+    "chunkName": "pages/auth/login-1",
+    "_name": "_05ad143c"
   },
   {
     "name": "auth-recoverpwd",
     "path": "/auth/recoverpwd",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\auth\\\\recoverpwd.vue",
-    "chunkName": "pages/auth/recoverpwd"
+    "chunkName": "pages/auth/recoverpwd",
+    "_name": "_12ed568c"
   },
   {
     "name": "auth-register-1",
     "path": "/auth/register-1",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\auth\\\\register-1.vue",
-    "chunkName": "pages/auth/register-1"
+    "chunkName": "pages/auth/register-1",
+    "_name": "_0d61c9e8"
   },
   {
     "name": "calendar-data-calendar",
     "path": "/calendar/data-calendar",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\calendar\\\\data-calendar.js",
-    "chunkName": "pages/calendar/data-calendar"
+    "chunkName": "pages/calendar/data-calendar",
+    "_name": "_4b9598f5"
   },
   {
     "name": "charts-apex",
     "path": "/charts/apex",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\charts\\\\apex\\\\index.vue",
-    "chunkName": "pages/charts/apex/index"
+    "chunkName": "pages/charts/apex/index",
+    "_name": "_a198b0dc"
   },
   {
     "name": "charts-chartist",
     "path": "/charts/chartist",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\charts\\\\chartist\\\\index.vue",
-    "chunkName": "pages/charts/chartist/index"
+    "chunkName": "pages/charts/chartist/index",
+    "_name": "_c3d664f0"
   },
   {
     "name": "charts-chartjs",
     "path": "/charts/chartjs",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\charts\\\\chartjs\\\\index.vue",
-    "chunkName": "pages/charts/chartjs/index"
+    "chunkName": "pages/charts/chartjs/index",
+    "_name": "_f22208ce"
   },
   {
     "name": "charts-echart",
     "path": "/charts/echart",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\charts\\\\echart\\\\index.vue",
-    "chunkName": "pages/charts/echart/index"
+    "chunkName": "pages/charts/echart/index",
+    "_name": "_f5eb718a"
   },
   {
     "name": "chat-data",
     "path": "/chat/data",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\chat\\\\data.js",
-    "chunkName": "pages/chat/data"
+    "chunkName": "pages/chat/data",
+    "_name": "_cf731198"
   },
   {
     "name": "contacts-grid",
     "path": "/contacts/grid",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\contacts\\\\grid.vue",
-    "chunkName": "pages/contacts/grid"
+    "chunkName": "pages/contacts/grid",
+    "_name": "_ee9c7d5c"
   },
   {
     "name": "contacts-list",
     "path": "/contacts/list",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\contacts\\\\list.vue",
-    "chunkName": "pages/contacts/list"
+    "chunkName": "pages/contacts/list",
+    "_name": "_741d0aac"
   },
   {
     "name": "contacts-profile",
     "path": "/contacts/profile",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\contacts\\\\profile.vue",
-    "chunkName": "pages/contacts/profile"
+    "chunkName": "pages/contacts/profile",
+    "_name": "_2c04b666"
   },
   {
     "name": "ecommerce-add-product",
     "path": "/ecommerce/add-product",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\ecommerce\\\\add-product.vue",
-    "chunkName": "pages/ecommerce/add-product"
+    "chunkName": "pages/ecommerce/add-product",
+    "_name": "_dd842708"
   },
   {
     "name": "ecommerce-cart",
     "path": "/ecommerce/cart",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\ecommerce\\\\cart.vue",
-    "chunkName": "pages/ecommerce/cart"
+    "chunkName": "pages/ecommerce/cart",
+    "_name": "_162db592"
   },
   {
     "name": "ecommerce-checkout",
     "path": "/ecommerce/checkout",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\ecommerce\\\\checkout.vue",
-    "chunkName": "pages/ecommerce/checkout"
+    "chunkName": "pages/ecommerce/checkout",
+    "_name": "_f3d2c646"
   },
   {
     "name": "ecommerce-customers",
     "path": "/ecommerce/customers",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\ecommerce\\\\customers.vue",
-    "chunkName": "pages/ecommerce/customers"
+    "chunkName": "pages/ecommerce/customers",
+    "_name": "_31524c4e"
   },
   {
     "name": "ecommerce-data-products",
     "path": "/ecommerce/data-products",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\ecommerce\\\\data-products.js",
-    "chunkName": "pages/ecommerce/data-products"
+    "chunkName": "pages/ecommerce/data-products",
+    "_name": "_f497ae22"
   },
   {
     "name": "ecommerce-orders",
     "path": "/ecommerce/orders",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\ecommerce\\\\orders.vue",
-    "chunkName": "pages/ecommerce/orders"
+    "chunkName": "pages/ecommerce/orders",
+    "_name": "_5722bebc"
   },
   {
     "name": "ecommerce-products",
     "path": "/ecommerce/products",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\ecommerce\\\\products.vue",
-    "chunkName": "pages/ecommerce/products"
+    "chunkName": "pages/ecommerce/products",
+    "_name": "_6c6be1fb"
   },
   {
     "name": "ecommerce-records",
     "path": "/ecommerce/records",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\ecommerce\\\\records.vue",
-    "chunkName": "pages/ecommerce/records"
+    "chunkName": "pages/ecommerce/records",
+    "_name": "_48c2b3fb"
   },
   {
     "name": "email-data-inbox",
     "path": "/email/data-inbox",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\email\\\\data-inbox.js",
-    "chunkName": "pages/email/data-inbox"
+    "chunkName": "pages/email/data-inbox",
+    "_name": "_6138b80e"
   },
   {
     "name": "email-inbox",
     "path": "/email/inbox",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\email\\\\inbox.vue",
-    "chunkName": "pages/email/inbox"
+    "chunkName": "pages/email/inbox",
+    "_name": "_65197c23"
   },
   {
     "name": "email-sidepanel",
     "path": "/email/sidepanel",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\email\\\\sidepanel.vue",
-    "chunkName": "pages/email/sidepanel"
+    "chunkName": "pages/email/sidepanel",
+    "_name": "_1d2c1eaa"
   },
   {
     "name": "email-toolbar",
     "path": "/email/toolbar",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\email\\\\toolbar.vue",
-    "chunkName": "pages/email/toolbar"
+    "chunkName": "pages/email/toolbar",
+    "_name": "_0cf81550"
   },
   {
     "name": "form-advanced",
     "path": "/form/advanced",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\form\\\\advanced.vue",
-    "chunkName": "pages/form/advanced"
+    "chunkName": "pages/form/advanced",
+    "_name": "_18d2215f"
   },
   {
     "name": "form-editor",
     "path": "/form/editor",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\form\\\\editor.vue",
-    "chunkName": "pages/form/editor"
+    "chunkName": "pages/form/editor",
+    "_name": "_ca7a3b2c"
   },
   {
     "name": "form-elements",
     "path": "/form/elements",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\form\\\\elements.vue",
-    "chunkName": "pages/form/elements"
+    "chunkName": "pages/form/elements",
+    "_name": "_527907b4"
   },
   {
     "name": "form-mask",
     "path": "/form/mask",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\form\\\\mask.vue",
-    "chunkName": "pages/form/mask"
+    "chunkName": "pages/form/mask",
+    "_name": "_9bf634ae"
   },
   {
     "name": "form-repeater",
     "path": "/form/repeater",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\form\\\\repeater.vue",
-    "chunkName": "pages/form/repeater"
+    "chunkName": "pages/form/repeater",
+    "_name": "_057bd5c5"
   },
   {
     "name": "form-upload",
     "path": "/form/upload",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\form\\\\upload.vue",
-    "chunkName": "pages/form/upload"
+    "chunkName": "pages/form/upload",
+    "_name": "_2deb3604"
   },
   {
     "name": "form-validation",
     "path": "/form/validation",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\form\\\\validation.vue",
-    "chunkName": "pages/form/validation"
+    "chunkName": "pages/form/validation",
+    "_name": "_1c50a8f6"
   },
   {
     "name": "form-wizard",
     "path": "/form/wizard",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\form\\\\wizard.vue",
-    "chunkName": "pages/form/wizard"
+    "chunkName": "pages/form/wizard",
+    "_name": "_ab0c5130"
   },
   {
     "name": "icons-boxicons",
     "path": "/icons/boxicons",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\icons\\\\boxicons.vue",
-    "chunkName": "pages/icons/boxicons"
+    "chunkName": "pages/icons/boxicons",
+    "_name": "_c2a103c0"
   },
   {
     "name": "icons-data-fontawesome",
     "path": "/icons/data-fontawesome",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\icons\\\\data-fontawesome.js",
-    "chunkName": "pages/icons/data-fontawesome"
+    "chunkName": "pages/icons/data-fontawesome",
+    "_name": "_2c516066"
   },
   {
     "name": "icons-data-material",
     "path": "/icons/data-material",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\icons\\\\data-material.js",
-    "chunkName": "pages/icons/data-material"
+    "chunkName": "pages/icons/data-material",
+    "_name": "_4aa66c26"
   },
   {
     "name": "icons-dripicons",
     "path": "/icons/dripicons",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\icons\\\\dripicons.vue",
-    "chunkName": "pages/icons/dripicons"
+    "chunkName": "pages/icons/dripicons",
+    "_name": "_29e5fb38"
   },
   {
     "name": "icons-fontawesome",
     "path": "/icons/fontawesome",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\icons\\\\fontawesome.vue",
-    "chunkName": "pages/icons/fontawesome"
+    "chunkName": "pages/icons/fontawesome",
+    "_name": "_7372cc53"
   },
   {
     "name": "icons-materialdesign",
     "path": "/icons/materialdesign",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\icons\\\\materialdesign.vue",
-    "chunkName": "pages/icons/materialdesign"
+    "chunkName": "pages/icons/materialdesign",
+    "_name": "_3ffd3dd6"
   },
   {
     "name": "icons-unicons",
     "path": "/icons/unicons",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\icons\\\\unicons.vue",
-    "chunkName": "pages/icons/unicons"
+    "chunkName": "pages/icons/unicons",
+    "_name": "_6f80b840"
   },
   {
     "name": "inventory-Spinner",
     "path": "/inventory/Spinner",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\inventory\\\\Spinner.vue",
-    "chunkName": "pages/inventory/Spinner"
+    "chunkName": "pages/inventory/Spinner",
+    "_name": "_4fc2b696"
   },
   {
     "name": "invoices-detail",
     "path": "/invoices/detail",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\invoices\\\\detail.vue",
-    "chunkName": "pages/invoices/detail"
+    "chunkName": "pages/invoices/detail",
+    "_name": "_064afc20"
   },
   {
     "name": "invoices-list",
     "path": "/invoices/list",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\invoices\\\\list.vue",
-    "chunkName": "pages/invoices/list"
+    "chunkName": "pages/invoices/list",
+    "_name": "_11033d06"
   },
   {
     "name": "maps-google",
     "path": "/maps/google",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\maps\\\\google.vue",
-    "chunkName": "pages/maps/google"
+    "chunkName": "pages/maps/google",
+    "_name": "_9f4aa2ee"
   },
   {
     "name": "maps-leaflet",
     "path": "/maps/leaflet",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\maps\\\\leaflet\\\\index.vue",
-    "chunkName": "pages/maps/leaflet/index"
+    "chunkName": "pages/maps/leaflet/index",
+    "_name": "_03c7a305"
   },
   {
     "name": "tables-advanced",
     "path": "/tables/advanced",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\tables\\\\advanced.vue",
-    "chunkName": "pages/tables/advanced"
+    "chunkName": "pages/tables/advanced",
+    "_name": "_f0cd5e00"
   },
   {
     "name": "tables-basic",
     "path": "/tables/basic",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\tables\\\\basic.vue",
-    "chunkName": "pages/tables/basic"
+    "chunkName": "pages/tables/basic",
+    "_name": "_ebfb4380"
   },
   {
     "name": "tables-dataAdvancedtable",
     "path": "/tables/dataAdvancedtable",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\tables\\\\dataAdvancedtable.js",
-    "chunkName": "pages/tables/dataAdvancedtable"
+    "chunkName": "pages/tables/dataAdvancedtable",
+    "_name": "_03187a9b"
   },
   {
     "name": "ui-alerts",
     "path": "/ui/alerts",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\ui\\\\alerts.vue",
-    "chunkName": "pages/ui/alerts"
+    "chunkName": "pages/ui/alerts",
+    "_name": "_1a99bca4"
   },
   {
     "name": "ui-buttons",
     "path": "/ui/buttons",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\ui\\\\buttons.vue",
-    "chunkName": "pages/ui/buttons"
+    "chunkName": "pages/ui/buttons",
+    "_name": "_52fec578"
   },
   {
     "name": "ui-cards",
     "path": "/ui/cards",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\ui\\\\cards.vue",
-    "chunkName": "pages/ui/cards"
+    "chunkName": "pages/ui/cards",
+    "_name": "_d6aa1a34"
   },
   {
     "name": "ui-carousel",
     "path": "/ui/carousel",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\ui\\\\carousel.vue",
-    "chunkName": "pages/ui/carousel"
+    "chunkName": "pages/ui/carousel",
+    "_name": "_16adf4a6"
   },
   {
     "name": "ui-colors",
     "path": "/ui/colors",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\ui\\\\colors.vue",
-    "chunkName": "pages/ui/colors"
+    "chunkName": "pages/ui/colors",
+    "_name": "_15f47a06"
   },
   {
     "name": "ui-dropdown",
     "path": "/ui/dropdown",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\ui\\\\dropdown.vue",
-    "chunkName": "pages/ui/dropdown"
+    "chunkName": "pages/ui/dropdown",
+    "_name": "_078db044"
   },
   {
     "name": "ui-general",
     "path": "/ui/general",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\ui\\\\general.vue",
-    "chunkName": "pages/ui/general"
+    "chunkName": "pages/ui/general",
+    "_name": "_72b5db2b"
   },
   {
     "name": "ui-grid",
     "path": "/ui/grid",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\ui\\\\grid.vue",
-    "chunkName": "pages/ui/grid"
+    "chunkName": "pages/ui/grid",
+    "_name": "_5a30ef13"
   },
   {
     "name": "ui-images",
     "path": "/ui/images",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\ui\\\\images.vue",
-    "chunkName": "pages/ui/images"
+    "chunkName": "pages/ui/images",
+    "_name": "_5227c405"
   },
   {
     "name": "ui-lightbox",
     "path": "/ui/lightbox",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\ui\\\\lightbox.vue",
-    "chunkName": "pages/ui/lightbox"
+    "chunkName": "pages/ui/lightbox",
+    "_name": "_7a94fac2"
   },
   {
     "name": "ui-modals",
     "path": "/ui/modals",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\ui\\\\modals.vue",
-    "chunkName": "pages/ui/modals"
+    "chunkName": "pages/ui/modals",
+    "_name": "_520675f3"
   },
   {
     "name": "ui-placeholder",
     "path": "/ui/placeholder",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\ui\\\\placeholder.vue",
-    "chunkName": "pages/ui/placeholder"
+    "chunkName": "pages/ui/placeholder",
+    "_name": "_7b764cb6"
   },
   {
     "name": "ui-progressbar",
     "path": "/ui/progressbar",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\ui\\\\progressbar.vue",
-    "chunkName": "pages/ui/progressbar"
+    "chunkName": "pages/ui/progressbar",
+    "_name": "_5af4d489"
   },
   {
     "name": "ui-rangeslider",
     "path": "/ui/rangeslider",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\ui\\\\rangeslider.vue",
-    "chunkName": "pages/ui/rangeslider"
+    "chunkName": "pages/ui/rangeslider",
+    "_name": "_40ca6a21"
   },
   {
     "name": "ui-rating",
     "path": "/ui/rating",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\ui\\\\rating.vue",
-    "chunkName": "pages/ui/rating"
+    "chunkName": "pages/ui/rating",
+    "_name": "_23bcd8aa"
   },
   {
     "name": "ui-sweet-alert",
     "path": "/ui/sweet-alert",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\ui\\\\sweet-alert.vue",
-    "chunkName": "pages/ui/sweet-alert"
+    "chunkName": "pages/ui/sweet-alert",
+    "_name": "_ba274cfc"
   },
   {
     "name": "ui-tabs-accordions",
     "path": "/ui/tabs-accordions",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\ui\\\\tabs-accordions.vue",
-    "chunkName": "pages/ui/tabs-accordions"
+    "chunkName": "pages/ui/tabs-accordions",
+    "_name": "_1482d01d"
   },
   {
     "name": "ui-typography",
     "path": "/ui/typography",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\ui\\\\typography.vue",
-    "chunkName": "pages/ui/typography"
+    "chunkName": "pages/ui/typography",
+    "_name": "_61ed00bc"
   },
   {
     "name": "ui-video",
     "path": "/ui/video",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\ui\\\\video.vue",
-    "chunkName": "pages/ui/video"
+    "chunkName": "pages/ui/video",
+    "_name": "_1ca45804"
   },
   {
     "name": "utility-404",
     "path": "/utility/404",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\utility\\\\404.vue",
-    "chunkName": "pages/utility/404"
+    "chunkName": "pages/utility/404",
+    "_name": "_db2171f6"
   },
   {
     "name": "utility-500",
     "path": "/utility/500",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\utility\\\\500.vue",
-    "chunkName": "pages/utility/500"
+    "chunkName": "pages/utility/500",
+    "_name": "_71c5b77c"
   },
   {
     "name": "utility-comingsoon",
     "path": "/utility/comingsoon",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\utility\\\\comingsoon.vue",
-    "chunkName": "pages/utility/comingsoon"
+    "chunkName": "pages/utility/comingsoon",
+    "_name": "_1b28c182"
   },
   {
     "name": "utility-faqs",
     "path": "/utility/faqs",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\utility\\\\faqs.vue",
-    "chunkName": "pages/utility/faqs"
+    "chunkName": "pages/utility/faqs",
+    "_name": "_dd6e18c0"
   },
   {
     "name": "utility-maintenance",
     "path": "/utility/maintenance",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\utility\\\\maintenance.vue",
-    "chunkName": "pages/utility/maintenance"
+    "chunkName": "pages/utility/maintenance",
+    "_name": "_a779f340"
   },
   {
     "name": "utility-pricing",
     "path": "/utility/pricing",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\utility\\\\pricing.vue",
-    "chunkName": "pages/utility/pricing"
+    "chunkName": "pages/utility/pricing",
+    "_name": "_049c8413"
   },
   {
     "name": "utility-starter",
     "path": "/utility/starter",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\utility\\\\starter.vue",
-    "chunkName": "pages/utility/starter"
+    "chunkName": "pages/utility/starter",
+    "_name": "_570f985c"
   },
   {
     "name": "utility-timeline",
     "path": "/utility/timeline",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\utility\\\\timeline.vue",
-    "chunkName": "pages/utility/timeline"
+    "chunkName": "pages/utility/timeline",
+    "_name": "_ad48df78"
   },
   {
     "name": "charts-apex-data",
     "path": "/charts/apex/data",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\charts\\\\apex\\\\data.js",
-    "chunkName": "pages/charts/apex/data"
+    "chunkName": "pages/charts/apex/data",
+    "_name": "_641a6135"
   },
   {
     "name": "charts-chartist-data",
     "path": "/charts/chartist/data",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\charts\\\\chartist\\\\data.js",
-    "chunkName": "pages/charts/chartist/data"
+    "chunkName": "pages/charts/chartist/data",
+    "_name": "_6c4ee6aa"
   },
   {
     "name": "charts-chartjs-BarChart",
     "path": "/charts/chartjs/BarChart",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\charts\\\\chartjs\\\\BarChart.vue",
-    "chunkName": "pages/charts/chartjs/BarChart"
+    "chunkName": "pages/charts/chartjs/BarChart",
+    "_name": "_50c32d34"
   },
   {
     "name": "charts-chartjs-DonutChart",
     "path": "/charts/chartjs/DonutChart",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\charts\\\\chartjs\\\\DonutChart.vue",
-    "chunkName": "pages/charts/chartjs/DonutChart"
+    "chunkName": "pages/charts/chartjs/DonutChart",
+    "_name": "_7cce7ac5"
   },
   {
     "name": "charts-chartjs-LineChart",
     "path": "/charts/chartjs/LineChart",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\charts\\\\chartjs\\\\LineChart.vue",
-    "chunkName": "pages/charts/chartjs/LineChart"
+    "chunkName": "pages/charts/chartjs/LineChart",
+    "_name": "_5ac66771"
   },
   {
     "name": "charts-chartjs-PieChart",
     "path": "/charts/chartjs/PieChart",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\charts\\\\chartjs\\\\PieChart.vue",
-    "chunkName": "pages/charts/chartjs/PieChart"
+    "chunkName": "pages/charts/chartjs/PieChart",
+    "_name": "_0835e04a"
   },
   {
     "name": "charts-chartjs-PolarChart",
     "path": "/charts/chartjs/PolarChart",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\charts\\\\chartjs\\\\PolarChart.vue",
-    "chunkName": "pages/charts/chartjs/PolarChart"
+    "chunkName": "pages/charts/chartjs/PolarChart",
+    "_name": "_795fca29"
   },
   {
     "name": "charts-chartjs-RadarChart",
     "path": "/charts/chartjs/RadarChart",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\charts\\\\chartjs\\\\RadarChart.vue",
-    "chunkName": "pages/charts/chartjs/RadarChart"
+    "chunkName": "pages/charts/chartjs/RadarChart",
+    "_name": "_1738513e"
   },
   {
     "name": "charts-echart-data",
     "path": "/charts/echart/data",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\charts\\\\echart\\\\data.js",
-    "chunkName": "pages/charts/echart/data"
+    "chunkName": "pages/charts/echart/data",
+    "_name": "_e19251c4"
   },
   {
     "name": "ecommerce-cars-cars",
     "path": "/ecommerce/cars/cars",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\ecommerce\\\\cars\\\\cars.vue",
-    "chunkName": "pages/ecommerce/cars/cars"
+    "chunkName": "pages/ecommerce/cars/cars",
+    "_name": "_6f101e55"
   },
   {
     "name": "maps-leaflet-basic",
     "path": "/maps/leaflet/basic",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\maps\\\\leaflet\\\\basic.vue",
-    "chunkName": "pages/maps/leaflet/basic"
+    "chunkName": "pages/maps/leaflet/basic",
+    "_name": "_62bb7f3e"
   },
   {
     "name": "maps-leaflet-boundary",
     "path": "/maps/leaflet/boundary",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\maps\\\\leaflet\\\\boundary.vue",
-    "chunkName": "pages/maps/leaflet/boundary"
+    "chunkName": "pages/maps/leaflet/boundary",
+    "_name": "_10d96b47"
   },
   {
     "name": "maps-leaflet-geometry",
     "path": "/maps/leaflet/geometry",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\maps\\\\leaflet\\\\geometry.vue",
-    "chunkName": "pages/maps/leaflet/geometry"
+    "chunkName": "pages/maps/leaflet/geometry",
+    "_name": "_6d5d278f"
   },
   {
     "name": "maps-leaflet-icons",
     "path": "/maps/leaflet/icons",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\maps\\\\leaflet\\\\icons.vue",
-    "chunkName": "pages/maps/leaflet/icons"
+    "chunkName": "pages/maps/leaflet/icons",
+    "_name": "_3bd72d66"
   },
   {
     "name": "maps-leaflet-markers",
     "path": "/maps/leaflet/markers",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\maps\\\\leaflet\\\\markers.vue",
-    "chunkName": "pages/maps/leaflet/markers"
+    "chunkName": "pages/maps/leaflet/markers",
+    "_name": "_2df1076c"
   },
   {
     "name": "email-reademail-id",
     "path": "/email/reademail/:id?",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\email\\\\reademail\\\\_id.vue",
-    "chunkName": "pages/email/reademail/_id"
+    "chunkName": "pages/email/reademail/_id",
+    "_name": "_e5849332"
   },
   {
     "name": "index",
     "path": "/",
     "component": "C:\\\\Projects\\\\Business Projects\\\\litmas-car-manager-bootstrap\\\\pages\\\\index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_223b8ae9"
   }
 ]
